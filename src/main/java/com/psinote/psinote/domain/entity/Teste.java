@@ -1,4 +1,4 @@
-package com.psinote.psinote.domain.model.entity;
+package com.psinote.psinote.domain.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

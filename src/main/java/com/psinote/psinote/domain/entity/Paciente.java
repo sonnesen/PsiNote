@@ -1,8 +1,11 @@
-package com.psinote.psinote.domain.model.entity;
+package com.psinote.psinote.domain.entity;
 
-import com.psinote.psinote.domain.model.value_object.Cpf;
-import com.psinote.psinote.domain.model.value_object.Endereco;
+import com.psinote.psinote.domain.valueobject.Cpf;
+import com.psinote.psinote.domain.valueobject.Endereco;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -21,6 +24,7 @@ public class Paciente {
     private Long id;
 
     private String nome;
+
     private String email;
 
     @Embedded
