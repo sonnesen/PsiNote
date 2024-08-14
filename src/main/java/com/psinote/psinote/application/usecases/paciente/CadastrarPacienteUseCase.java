@@ -1,6 +1,6 @@
-package com.psinote.psinote.application.usecases;
+package com.psinote.psinote.application.usecases.paciente;
 import com.psinote.psinote.domain.entity.Paciente;
-import com.psinote.psinote.domain.events.PacienteCadastradoEvent;
+import com.psinote.psinote.domain.events.paciente.PacienteCadastradoEvent;
 import com.psinote.psinote.infra.repository.PacienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
